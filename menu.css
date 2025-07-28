@@ -153,6 +153,30 @@ p{
         justify-content: space-between;
         align-items: center;
     }
+    #cart{
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 871px) {
+    #cards-cart-father{
+        display: grid;
+        grid-template-columns: repeat(1, 4fr);
+        
+    }
+    #cards-father{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #cart{
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        
+    }
+    
 }
 
 
