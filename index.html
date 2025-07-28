@@ -3,132 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="menu.css">
-    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Golden Bites</title>
 </head>
 <body>
-    <!--banner section-->
-    <section id="banner">
-        <h1 id="banner-h1">
+    
+    <!--header-->
+    <header class="my-header">
+        <img class="logo" src="images/cropped_circle_image.png" width="70" alt="GoldenBites Logo">
+        <nav class="nav-container">
+            <a href="#" class="nav-links">Have an issue? | </a> 
+            <a href="#" class="nav-links">Feedback</a>
+        </nav>
+    </header>
+
+    <!--hero section-->
+    <section class="hero">
+        <h1 id="golden-bites">
             Golden Bites
         </h1>
-        <h3 id="banner-h3">
-            Menu
+        <p id="golden-bites-writeup">
+            Savor the taste of Nigeria, One Bite at a Time!...🤤
+        </p>
+        <a href="menu/">
+            <button type="submit" id="explore-btn">Explore Menu</button>
+        </a>
+        <h3 class="hero-h3">
+            Golden Bites, Mutual Feeling...
         </h3>
     </section>
-
-    <!--food section-->
-    <section id="food">
-        <div id="cards-cart-father">
-            <div id="cards-father">
-                <!--Jollof Rice & Chicken-->
-                <div class="food-cards">
-                    <img src="images/Jollof Rice.jpg" id="jollof-rice" width="100" alt="9ja Jollof Rice">
-                    <div class="description">
-                        <h3>
-                            Jollof Rice & Chicken
-                        </h3>
-                        <p>
-                            Nothing tastes better than a smoked party jollof made with love.
-                        </p>
-                        <p>₦1,500</p>
-                        <button type="submit" class="add-to-plate">Add to plate</button>
-                    </div>
-                </div>
-                <!--Abacha-->
-                <div class="food-cards">
-                    <img src="images/Abacha.jpg" id="Abacha" width="100" alt="Garnished Abacha">
-                    <div class="description">
-                        <h3>
-                            Abacha
-                        </h3>
-                        <p>
-                            Taste the goodness of a locally made abacha with ugba, it's heavenly.
-                        </p>
-                        <p>₦1,000</p>
-                        <button type="submit" class="add-to-plate">Add to plate</button>
-                    </div>
-                </div>
-                <!--Egusi & semo-->
-                <div class="food-cards">
-                    <img src="images/Egusi Soup.jpg" id="Egusi" width="100" alt="Egusi and semo">
-                    <div class="description">
-                        <h3>
-                            Egusi & semo
-                        </h3>
-                        <p>
-                            You love swallow? no worries, enjoy the magical feeling of our Egusi with lots of proteins and semo.
-                        </p>
-                        <p>₦3,000</p>
-                        <button type="submit" class="add-to-plate">Add to plate</button>
-                    </div>
-                </div>
-                <!--Bole & fish-->
-                <div class="food-cards">
-                    <img src="images/Bole and fish.jpg" id="bole-fish" width="100" alt="Bole and well grilled fish">
-                    <div class="description">
-                        <h3>
-                            Bole & Grilled fish
-                        </h3>
-                        <p>
-                            This combo isn't something to say no to.
-                        </p>
-                        <p>₦2,500</p>
-                        <button type="submit" class="add-to-plate">Add to plate</button>
-                    </div>
-                </div>
-                <!--Coca-cola-->
-                <div class="food-cards">
-                    <img src="images/Coca-cola.png" id="Coca-cola" width="100" alt="Chilled Coca-cola">
-                    <div class="description">
-                        <h3>
-                            Chilled Coca-cola
-                        </h3>
-                        <p>
-                            Step-down your meals with a chilled coca-cola, goes with literally everything.
-                        </p>
-                        <p>₦500</p>
-                        <button type="submit" class="add-to-plate">Add to plate</button>
-                    </div>
-                </div>
-                <!--Bottled water-->
-                <div class="food-cards">
-                    <img src="images/Bottle water.jfif" id="bottle-water" width="100" alt="Bottle water">
-                    <div class="description">
-                        <h3>
-                            Bottle water
-                        </h3>
-                        <p>
-                            Water is life, stay hydrated always.
-                        </p>
-                        <p>₦300</p>
-                        <button type="submit" class="add-to-plate">Add to plate</button>
-                    </div>
-                </div>
-            </div>
-            
-            <!--cart section-->
-            <div id="cart">
-                <h3 id="cart-h3">
-                    Cart
-                </h3>
-                <p class="cart-p">
-                    Food cost:
-                </p>
-                <p class="cart-p">
-                    QTY/plate:
-                </p>
-                <p class="cart-p">
-                    Total:
-                </p>
-                <button type="submit" id="order">Order</button>
-                <button type="submit" id="print">Print</button>
-            </div>
-        </div>
+    
+    <!--sub-section-->
+    <section class="sub-section">
+        <p class="services">
+            <strong>Services:</strong> We handle your events;
+            <ul>
+                <li>
+                    Wedding
+                </li>
+                <li>
+                    Birthdays
+                </li>
+                <li>
+                    Hangouts, etc...
+                </li>
+            </ul>
+        </p>   
     </section>
 
+    <!--footer-->
+    <footer>&copy Chukwuemeka Udeh | Golden Bites.</footer>
 
-
-<script src="script.js"></script>
+<script src="script.js"></script>    
 </body>
 </html>
