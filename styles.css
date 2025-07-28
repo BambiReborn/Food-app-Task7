@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+}
+
+:root{
+    --color-1: #ffff;
+    --color-2: #cc1222;
+    --color-3: #0a0a0a;
+    --color-4: #c29542;
+    --color-5: black;
+    --color-6: #cf9c11;
+    --color-7: #176b11;
+    --font-1: impact;
+    --font-2: consolas;
+    font-family: sans-serif;
+}
+/*header*/
+.my-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0, 5px, 0, 5px;
+    color: var(--color-1);
+    background-color: var(--color-3);
+}
+.logo{
+    border-radius: 50rem;
+    border: solid var(--color-4);
+    cursor: pointer;
+}
+.nav-container{
+    display: flex;
+    position: absolute;
+    justify-self: flex-end;
+    align-self: center;
+    right: 0;
+    margin-right: 50px;
+
+}
+.nav-links{
+    text-decoration: none;
+    color: var(--color-1);
+    font-family: consolas;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: 5px 5px 5px black;
+}
+
+/*hero section*/
+.hero{
+    height: 80vh;
+    padding: 30px;
+    background-image: url(images/delicious-pakistani-dish-high-angle.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+#golden-bites{
+    margin-top: 20px;
+    justify-self: center;
+    color: var(--color-1);
+    font-size: 10em;
+    font-weight: bold;
+    font-family: serif;
+    text-shadow: 10px 10px 10px black;
+}
+#golden-bites-writeup{
+    justify-self: center;
+    color: var(--color-1);
+    font-size: 1.5em;
+    font-family: cursive;
+    text-shadow: 5px 5px 5px black;
+}
+#explore-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 10px;
+    width: 13rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid var(--color-6);
+    box-shadow: 5px 5px 5px black;
+    text-shadow: 2px 2px 2px var(--color-5);
+    color: var(--color-1);
+    background-color: var(--color-7);
+}
+#explore-btn:hover{
+    cursor: pointer;
+    border: solid var(--color-7);
+    background-color: var(--color-6);
+}
+
+.hero-h3{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 10px;
+    color: var(--color-1);
+}
+
+/*sub section*/
+.sub-section{
+    padding: 20px;
+    color: var(--color-1);
+    background-color: var(--color-7);
+}
+
+.services{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+ul{
+    font-size: 1rem;
+    margin-top: 5px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-1);
+    background-color: var(--color-3);
+    padding: 10px;
+}
+
+
+
+/*MEDIA QUERY*/
+@media (max-width: 1440px) {
+    .hero-h3{
+        position: relative;
+        margin-top: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    #golden-bites{
+        text-align: center;
+    }
+    .hero-h3{
+        margin-top: 300px;
+    }
+}
+
+@media (max-width: 503px) {
+    #golden-bites{
+        font-size: 8em;
+    }
+    #golden-bites-writeup{
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 431px) {
+    #golden-bites{
+        font-size: 7em;
+    }
+    .hero-h3{
+        margin-top: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .my-header{
+        display: flex;
+        
+    }
+    .nav-links{
+        font-size: 1em;
+    }
+    #golden-bites{
+        font-size: 6em;
+    }
+}
+@media (max-width: 361px) {
+    .nav-links{
+        font-size: 0.9em;
+    }
+    #golden-bites{
+        font-size: 5em;
+    }
+    .hero-h3{
+        margin-top: 500px;
+        font-size: 1em;
+    }
+}
+@media (max-width: 331px) {
+    .nav-links{
+        font-size: 0.8em;
+    }
+    .hero{
+        padding: 20px;
+    }
+    #golden-bites{
+        font-size: 4.5em;
+    }
+    #golden-bites-writeup{
+        font-size: 0.7em;
+    }
+    .hero-h3{
+        margin-top: 540px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

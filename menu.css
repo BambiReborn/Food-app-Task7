@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+}
+
+:root{
+    --color-1: #ffff;
+    --color-2: #cc1222;
+    --color-3: #0a0a0a;
+    --color-4: #c29542;
+    --color-5: black;
+    --color-6: #cf9c11;
+    --color-7: #176b11;
+    --font-1: impact;
+    --font-2: consolas;
+    --font-3: sans-serif;
+    --font-4: serif;
+    --font-5: cursive;
+}
+
+/*banner*/
+#banner{
+    height: 30vh;
+    padding: 20px;
+    border: solid 10px var(--color-7);
+    color: var(--color-1);
+    /* background-color: var(--color-7); */
+    background-image: url(images/front-view-meat-sauce-soup-with-greens-potatoes-dark-desk-soup-meal-sauce-meat.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(0,0,0,0.5);
+    background-blend-mode: overlay;
+}
+
+#banner-h1{
+    text-align: center;
+    margin: 40px;
+    margin-bottom: 0;
+    font-size: 5em;
+    font-family: serif;
+    text-shadow: 5px 5px 5px var(--color-5);
+}
+
+#banner-h3{
+    text-align: center;
+    font-size: 3em;
+    font-family: var(--font-5);
+    text-shadow: 3px 3px 3px var(--color-5);
+}
+
+/*Food section*/
+#food{
+    padding: 10px;
+    background-color: var(--color-6);
+}
+#cards-cart-father{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#cards-father{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    flex-wrap: wrap;
+
+}
+.food-cards{
+    width: 15rem;
+    height: 30em;
+    margin-top: 10px;
+    margin: 30px;
+    border: solid var(--color-7);
+    box-shadow: 10px 10px 10px var(--color-5);
+}
+.food-cards img{
+    width: 100%;
+}
+.description{
+    padding: 5px;
+}
+h3{
+    color: var(--color-1);
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px var(--color-5);
+}
+p{
+    color: var(--color-1);
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px var(--color-5);
+
+}
+.add-to-plate{
+    margin-top: 20px;
+    padding: 5px;
+    display: block;
+    justify-self: center;
+    align-self: center;
+    font-weight: bold;
+    width: 10rem;
+    color: var(--color-1);
+    text-shadow: 1px 1px 1px var(--color-5);
+    border: solid 3px var(--color-7);
+    border-radius: 5px;
+    background-color: var(--color-7);
+}
+.add-to-plate:hover{
+    cursor: pointer;
+    background-color: var(--color-6);
+}
+/*cart*/
+#cart{
+    margin: 10px;
+    width: 30rem;
+    height: 25rem;
+    border: solid var(--color-7);
+    box-shadow: -10px -10px 10px var(--color-5);
+}
+#cart-h3{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.cart-p{
+    margin: 30px;
+    margin-bottom: 40px;
+}
+#order, #print{
+    margin-top: 20px;
+    padding: 5px;
+    display: block;
+    justify-self: center;
+    align-self: center;
+    font-weight: bold;
+    width: 10rem;
+    color: var(--color-1);
+    text-shadow: 1px 1px 1px var(--color-5);
+    border: solid 3px var(--color-7);
+    border-radius: 5px;
+    background-color: var(--color-7);
+}
+#order:hover, #print:hover{
+    cursor: pointer;
+    background-color: var(--color-6);
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 1025px) {
+    #cards-cart-father{
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
