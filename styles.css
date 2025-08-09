@@ -84,6 +84,7 @@
     border-radius: 10px;
     border: solid var(--color-6);
     box-shadow: 5px 5px 5px black;
+    text-decoration: none;
     text-shadow: 2px 2px 2px var(--color-5);
     color: var(--color-1);
     background-color: var(--color-7);
@@ -160,7 +161,7 @@ footer{
         font-size: 7em;
     }
     .hero-h3{
-        margin-top: 400px;
+        margin-top: 200px;
     }
 }
 
